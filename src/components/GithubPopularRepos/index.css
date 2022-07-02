@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.github-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.github-header {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: Lobster;
+  padding: 20px;
+  text-align: center;
+}
+.unordered-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.each-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-failureImage {
+  height: 180px;
+  width: 150px;
+}
+.failureItem-header {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: Lobster;
+  text-align: center;
+}
